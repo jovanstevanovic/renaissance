@@ -14,7 +14,6 @@ lazy val twitterFinagle = (project in file("."))
       "com.twitter" %% "finagle-stats" % finagleVersion,
       "com.twitter" %% "finagle-core" % finagleVersion,
       "com.twitter" %% "util-core" % finagleVersion,
-      "com.google.guava" % "guava" % "19.0",
       "org.scala-lang.modules" %% "scala-parallel-collections" % "1.0.4",
       // Add simple binding to silence SLF4J warnings.
       "org.slf4j" % "slf4j-simple" % "1.7.32"
